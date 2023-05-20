@@ -1,0 +1,33 @@
+.sections {
+  position: relative;
+  top: 10em;
+}
+
+.title {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("https://technomotion.ca/wp-content/uploads/2019/05/Abstract-Technology-Background-250119211.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80em;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+
+  div {
+    position: relative;
+    bottom: 25em;
+    text-align: center;
+  }
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+}

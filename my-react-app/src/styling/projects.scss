@@ -1,0 +1,82 @@
+.projectspage {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel.slide {
+  margin-top: 20px;
+  background-color: rgb(48, 47, 42);
+  border: 3px solid gray;
+  opacity: 0.7;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition: opacity 0.3s ease;
+
+  img {
+    max-height: 61vh;
+  }
+}
+
+.carousel.slide:hover {
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-inner {
+  height: auto !important;
+  width: 58em !important;
+}
+
+.carousel-inner:hover {
+  opacity: 1;
+}
+
+.carousel-indicators {
+  margin-bottom: 18em !important;
+}
+
+.details {
+  background-color: rgb(206, 204, 204);
+  padding: 10px;
+}
+
+.titlelink {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 5px;
+
+  h1 {
+    border-bottom: 1px solid black;
+  }
+  span a {
+    text-decoration: none;
+  }
+  span a:hover {
+    text-decoration: underline;
+  }
+}
+
+.carousel-caption a {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 6em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 920px) {
+  .carousel-inner {
+    width: 30em !important;
+  }
+  .details p {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .carousel-inner {
+    width: 100em !important;
+  }
+}
