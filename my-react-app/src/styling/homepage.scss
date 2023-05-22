@@ -1,19 +1,19 @@
 .sections {
   position: relative;
-  top: 10em;
 }
 
-.title {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("https://technomotion.ca/wp-content/uploads/2019/05/Abstract-Technology-Background-250119211.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80em;
+#about {
+  //   background-image: linear-gradient(
+  //       0deg,
+  //       rgba(0, 0, 0, 0.2),
+  //       rgba(0, 0, 0, 0.2)
+  //     ),
+  //     url("https://technomotion.ca/wp-content/uploads/2019/05/Abstract-Technology-Background-250119211.jpg");
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  background-color: #333;
+  height: 30em;
   display: flex;
   background-position: center;
   justify-content: center;
@@ -21,13 +21,43 @@
   color: wheat;
 
   div {
-    position: relative;
-    bottom: 25em;
     text-align: center;
   }
 }
 
-#about {
+#contact {
+  margin-top: 2em;
+  margin-bottom: 10em;
+  text-align: center;
+}
+
+.contactlinks {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contactlinks a {
+  width: 15em;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.contactlinks a:active {
+  transform: scale(0.97);
+}
+.contactlinks a:hover {
+  background-color: #ddd;
+}
+
+#projects {
+  margin-top: 5em;
+  h1 {
+    text-align: center;
+  }
 }

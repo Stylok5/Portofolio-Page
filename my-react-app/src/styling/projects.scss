@@ -1,25 +1,25 @@
 .projectspage {
   display: flex;
+  margin: 30px;
   justify-content: center;
 }
 
 .carousel.slide {
-  margin-top: 20px;
   background-color: rgb(48, 47, 42);
-  border: 3px solid gray;
-  opacity: 0.7;
-  border-radius: 5px;
+  border: 9px solid transparent; /* Set an initial transparent border */
+  border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  transition: opacity 0.3s ease;
-
+  transition: transform 0.8s ease, border-color 0.7s ease, box-shadow 0.3s ease;
   img {
     max-height: 61vh;
   }
 }
 
 .carousel.slide:hover {
-  opacity: 1;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  border-color: rgb(103, 103, 103);
+  transform: scale(0.86);
+  transition: transform 0.8s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
 
 .carousel-inner {
@@ -27,17 +27,21 @@
   width: 58em !important;
 }
 
-.carousel-inner:hover {
-  opacity: 1;
+.carousel-indicators {
+  //   margin-bottom: 20em !important;
+  position: absolute;
+  height: 10px;
+  top: 26.8em !important;
 }
 
-.carousel-indicators {
-  margin-bottom: 18em !important;
+.carousel-indicators button {
+  background-color: #ff4500 !important; /* Set the inactive indicator color */
 }
 
 .details {
-  background-color: rgb(206, 204, 204);
+  margin-bottom: 10px;
   padding: 10px;
+  height: 17em;
 }
 
 .titlelink {
@@ -46,37 +50,80 @@
   font-weight: bold;
   align-items: start;
   flex-direction: column;
-  margin-bottom: 5px;
 
   h1 {
     border-bottom: 1px solid black;
   }
+  span {
+    margin-bottom: -10px;
+  }
   span a {
+    display: inline-block;
+    margin-left: 4px;
     text-decoration: none;
   }
+
   span a:hover {
     text-decoration: underline;
   }
+  span a:active {
+    color: #ff4500;
+  }
+  p {
+    margin-top: 5px;
+    color: rgb(57, 71, 104);
+  }
 }
 
-.carousel-caption a {
-  font-size: 20px;
-  color: #333;
-  margin-bottom: 6em;
-  text-decoration: none;
-  cursor: pointer;
+.btn {
+  position: absolute;
+  top: 25.4em;
+  left: 50%;
+  width: 8em;
+  background-color: rgba(84, 83, 83, 0.699) !important;
+  transform: translate(-50%, -50%);
+  color: #f7ce5e !important;
 }
 
-@media only screen and (max-width: 920px) {
+.btn:hover {
+  background-color: #0d6efd !important;
+}
+
+.btn:active {
+  background-color: hsl(216, 91%, 35%) !important;
+}
+
+@media only screen and (max-width: 945px) {
   .carousel-inner {
     width: 30em !important;
   }
   .details p {
-    font-size: 13px;
+    margin-bottom: 7px;
+    font-size: 12px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    top: 8em !important;
+  }
+  .btn {
+    top: 17.5em;
+    font-size: 12px !important;
+  }
+  .carousel-indicators {
+    top: 14.8em !important;
+  }
+  .carousel.slide img {
+    height: 16em;
   }
 }
 @media only screen and (min-width: 1800px) {
   .carousel-inner {
     width: 100em !important;
   }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  position: absolute;
+  top: 15em;
 }

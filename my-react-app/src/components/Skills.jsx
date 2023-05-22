@@ -25,7 +25,7 @@ const Skills = () => {
     },
     {
       name: "Express.js",
-      icon: "https://expressjs.com/images/express-facebook-share.png",
+      icon: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
     },
     {
       name: "MongoDB",
@@ -44,7 +44,7 @@ const Skills = () => {
       icon: "https://img.icons8.com/?size=2x&id=25010&format=png",
     },
     {
-      name: "SASS",
+      name: "Sass",
       icon: "https://img.icons8.com/?size=2x&id=DYjckUr8cF8H&format=png",
     },
     {
@@ -72,11 +72,23 @@ const Skills = () => {
       name: "Netlify",
       icon: "https://img.icons8.com/?size=512&id=sBo1RJ3rjbje&format=png",
     },
+    {
+      name: "Postman",
+      icon: "https://yt3.googleusercontent.com/X-rhKMndFm9hT9wIaJns1StBfGbFdLTkAROwm4UZ3n9ucrBky5CFIeeZhSszFXBgQjItzCD0SA=s900-c-k-c0x00ffffff-no-rj",
+    },
+    {
+      name: "Vite",
+      icon: "https://vitejs.dev/logo-with-shadow.png",
+    },
+    {
+      name: "Mongoose",
+      icon: "https://img.icons8.com/?size=512&id=gKfcEStXI1Hm&format=png",
+    },
   ];
 
   return (
     <section id="skills">
-      <h2>Skills</h2>
+      <h1>Skills</h1>
       <div className="skills-container">
         {skills.map((skill) => (
           <div className="skill" key={skill.name}>
