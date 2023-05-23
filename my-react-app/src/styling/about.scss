@@ -1,0 +1,73 @@
+.aboutpage {
+  background-image: linear-gradient(
+      rgba(32, 31, 31, 0.522) 25%,
+      rgba(122, 121, 121, 0.2),
+      rgb(255, 255, 255)
+    ),
+    url("https://images.pling.com/img/00/00/58/85/50/1708012/nature-minimalist-style-171.jpg");
+  // background: linear-gradient(to bottom, #333 60%, #ffffff);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out forwards;
+  //   background: linear-gradient(to bottom, #333 60%, #ffffff);
+  height: 70em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  div {
+    position: relative;
+    bottom: 17em;
+  }
+
+  h1 {
+    color: rgb(175, 201, 5);
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid black;
+  }
+  p {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(175, 201, 5);
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+    margin: 0 auto; /* Add this line to center the text horizontally */
+    max-width: 700px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 945px) {
+  .aboutpage h4 {
+    font-size: 14px;
+  }
+}

@@ -1,39 +1,32 @@
 import { useState } from "react";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import Contact from "../components/Contact";
+import About from "../components/About";
 
 const HomePage = () => {
   return (
     <div className="homepage">
       <div className="sections">
-        <section id="about">
+        <div className="aboutskills">
+          <section id="about">
+            <About />
+          </section>
+          <section id="skills">
+            <Skills />
+          </section>
+        </div>
+        <div className="projcontact">
+          <section id="projects">
+            <h1 className="projecttitle">Projects</h1>
+          </section>
           <div>
-            <h1 className="name">Kostas Fergadis</h1>
-            <h2>Developer</h2>
+            <Projects />
           </div>
-        </section>
-        <Skills />
-        <section id="projects">
-          <h1>Projects</h1>
-          <Projects />
-        </section>
-        <section id="contact">
-          <h2>Contact</h2>
-          <div className="contactlinks">
-            <a target="_blank" href="mailto:kostasfergadis74@gmail.com">
-              Email
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/kostas-fergadis/"
-            >
-              Linkedin
-            </a>
-            <a target="_blank" href="https://github.com/Stylok5">
-              GitHub
-            </a>
-          </div>
-        </section>
+          <section id="contact">
+            <Contact />
+          </section>
+        </div>
       </div>
     </div>
   );

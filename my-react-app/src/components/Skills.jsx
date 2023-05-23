@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Skills = () => {
   const skills = [
     {
@@ -87,17 +85,19 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills">
-      <h1>Skills</h1>
-      <div className="skills-container">
-        {skills.map((skill) => (
-          <div className="skill" key={skill.name}>
-            <img src={skill.icon} alt={skill.name} />
-            <span className="skill-name">{skill.name}</span>
-          </div>
-        ))}
+    <div className="skillspage">
+      <div className="skillsborder">
+        <h1>Skills</h1>
+        <div className="skills-container">
+          {skills.map((skill) => (
+            <div className="skill" key={skill.name}>
+              <img src={skill.icon} alt={skill.name} />
+              <span className="skill-name">{skill.name}</span>
+            </div>
+          ))}
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

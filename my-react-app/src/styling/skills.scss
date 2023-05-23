@@ -2,19 +2,34 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
-  margin-top: 20px;
   margin: 0 auto; /* Set left and right margin to "auto" */
   max-width: 40em; /* Optional: Set a maximum width for the container */
 }
 
-#skills {
+.skillspage {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 7em;
+  height: 50em;
+  // background-image: linear-gradient(
+  //     rgba(22, 17, 17, 0.2),
+  //     rgba(255, 255, 255, 0)
+  //   ),
+  //   url("https://cutewallpaper.org/28/cool-simplestic-wallpaper/85320882.jpg");
+  // // background: linear-gradient(to bottom, #333 60%, #ffffff);
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   h1 {
     display: inline-block;
-    margin-bottom: 40px;
-    padding: 0 20px;
-    border-top: 2px solid black;
+    margin-top: 20px;
+    font-size: 45px;
+    margin-bottom: 45px;
+    padding: 10px 20px;
+
     border-bottom: 2px solid black;
   }
 }
@@ -55,4 +70,13 @@
   font-weight: bold;
   border-radius: 4px;
   transition: opacity 0.3s ease;
+}
+
+.skillsborder {
+  border: 5px solid rgb(31, 105, 139);
+  width: 50em;
+  border-radius: 50px;
+  height: 40em;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(74, 143, 208, 0.7);
 }
