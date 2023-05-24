@@ -1,8 +1,8 @@
-import { useState } from "react";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import About from "../components/About";
+import Interests from "../components/Interests";
 
 const HomePage = () => {
   return (
@@ -16,17 +16,20 @@ const HomePage = () => {
             <Skills />
           </section>
         </div>
-        <div className="projcontact">
+        <div className="projectsinterests">
           <section id="projects">
             <h1 className="projecttitle">Projects</h1>
           </section>
           <div>
             <Projects />
           </div>
-          <section id="contact">
-            <Contact />
+          <section id="interests">
+            <Interests />
           </section>
         </div>
+        <section id="contact">
+          <Contact />
+        </section>
       </div>
     </div>
   );

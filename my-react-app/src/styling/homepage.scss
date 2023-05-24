@@ -1,28 +1,20 @@
-.sections {
-  position: relative;
-}
-
 #projects {
-  margin-top: 8em;
   text-align: center;
   .projecttitle {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 22px;
+    position: relative;
+    top: 2.5em;
+    color: rgb(175, 201, 5);
     font-size: 50px;
-    margin-bottom: 40px;
-    padding: 10px 20px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    padding: 10px 40px;
+    border-bottom: 2px solid rgb(99, 146, 185);
   }
 }
 
-.projcontact {
-  background-image: linear-gradient(
-      rgb(254, 253, 253),
-      rgba(104, 178, 205, 0.755),
-      rgba(90, 111, 132, 0)
-    ),
-    linear-gradient(#fdfdfd, rgba(0, 0, 0, 0)),
+.projectsinterests {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.002) 90%, #032153eb),
+    linear-gradient(#031a2a 10%, rgba(0, 0, 0, 0)),
     url("https://wallpaper.dog/large/20492307.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,4 +22,20 @@
 
 .homepage {
   height: 20em;
+}
+.sections {
+  background-color: black;
+}
+
+@media only screen and (max-width: 945px) {
+  #projects {
+    text-align: center;
+    .projecttitle {
+      top: 3.2em;
+    }
+  }
+}
+
+* {
+  font-family: "Kalam", sans-serif;
 }

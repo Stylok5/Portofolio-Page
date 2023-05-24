@@ -1,15 +1,17 @@
 .projectspage {
   display: flex;
-  margin: 30px;
+  position: relative;
+  top: 7em;
+  margin: 50px;
   justify-content: center;
 }
 
 .carousel.slide {
   background-color: rgb(48, 47, 42);
-  border: 9px solid black; /* Set an initial transparent border */
+  border: 9px solid black;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  transition: transform 0.8s ease, border-color 0.7s ease, box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, border-color 0.8s ease;
   img {
     max-height: 61vh;
   }
@@ -17,8 +19,6 @@
 
 .carousel.slide:hover {
   border-color: rgb(103, 103, 103);
-  transform: scale(0.87);
-  transition: transform 0.83s ease;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
 
@@ -39,9 +39,10 @@
 }
 
 .details {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 10px;
   height: 17em;
+  font-size: 17px;
 }
 
 .titlelink {
@@ -54,9 +55,7 @@
   h1 {
     border-bottom: 1px solid black;
   }
-  span {
-    margin-bottom: -10px;
-  }
+
   span a {
     display: inline-block;
     margin-left: 4px;
@@ -67,11 +66,13 @@
     text-decoration: underline;
   }
   span a:active {
-    color: #ff4500;
+    // transform: scale(0.95) !important;
+    color: rgb(23, 159, 238);
   }
   p {
+    color: rgb(14, 81, 168);
+    font-weight: bold;
     margin-top: 5px;
-    color: rgb(26, 126, 184);
   }
 }
 
@@ -80,14 +81,17 @@
   top: 25.4em;
   left: 50%;
   width: 8em;
-  background-color: #333333b7 !important;
-  // background-color: #e25e5eb7 !important;
+  border-radius: 20px !important;
+  background-color: #642c0b98 !important;
+  /* background-color: #e25e5eb7 !important; */
   transform: translate(-50%, -50%);
-  color: #f7ce5e !important;
+  color: rgb(222, 200, 38) !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
 }
 
 .btn:hover {
-  background-color: #0d6efd !important;
+  background-color: #28669d !important;
 }
 
 .btn:active {
@@ -96,16 +100,24 @@
 
 @media only screen and (max-width: 945px) {
   .carousel-inner {
-    width: 30em !important;
+    width: 29em !important;
+  }
+  .titlelink {
+    font-size: 12.5px;
+    h1 {
+      font-size: 28px;
+    }
   }
   .details p {
     margin-bottom: 7px;
-    font-size: 12px;
+    font-size: 12.5px;
   }
   .carousel.slide:hover {
     transform: none;
   }
-
+  .carousel.slide {
+    top: 3.6em;
+  }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     top: 8em !important;
@@ -124,6 +136,17 @@
 @media only screen and (min-width: 1800px) {
   .carousel-inner {
     width: 100em !important;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    top: 23em !important;
+  }
+  .btn {
+    top: 42.5em;
+  }
+  .carousel-indicators {
+    //   margin-bottom: 20em !important;
+    top: 45em !important;
   }
 }
 

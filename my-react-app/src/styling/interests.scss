@@ -1,0 +1,77 @@
+.interestspage {
+  height: 100em;
+  display: flex;
+  margin-top: 15em;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 1.5em;
+    color: rgb(175, 201, 5);
+    padding: 10px 30px;
+    border-bottom: 2px solid black;
+  }
+}
+
+.listinterests {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8em;
+  h2 {
+    font-weight: bold;
+    color: white;
+  }
+  p {
+    color: white;
+    width: 650px;
+    font-size: 17.5px;
+  }
+  img {
+    width: 15em;
+    height: 15em;
+    margin-right: 20px;
+  }
+}
+
+.listInterestsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.titledescription {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 945px) {
+  .listInterestsContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .interestspage {
+    margin-top: 15em;
+    position: relative;
+    top: 12em;
+  }
+  .titledescription {
+    margin-left: 0px;
+  }
+  .listinterests {
+    h2 {
+      font-weight: bold;
+      color: white;
+    }
+    p {
+      color: white;
+      width: 400px;
+      font-size: 15px;
+    }
+    img {
+      margin: auto;
+      margin-bottom: 20px;
+      width: 6em;
+      height: 6em;
+    }
+  }
+}

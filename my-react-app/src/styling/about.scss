@@ -1,11 +1,8 @@
 .aboutpage {
-  background-image: linear-gradient(
-      rgba(32, 31, 31, 0.522) 25%,
-      rgba(122, 121, 121, 0.2),
-      rgb(255, 255, 255)
-    ),
+  background-image: linear-gradient(rgba(166, 189, 202, 0), #1d142728, #0e0b13),
     url("https://images.pling.com/img/00/00/58/85/50/1708012/nature-minimalist-style-171.jpg");
-  // background: linear-gradient(to bottom, #333 60%, #ffffff);
+  // https://rare-gallery.com/mocahbig/391762-morning-scenery-minimalist-digital-art-4k-pc-wallpaper.jpg
+  // https://wallpaperaccess.com/full/1216331.jpg
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,15 +10,14 @@
   text-align: center;
   padding: 20px;
   animation: fadeIn 1s ease-in-out forwards;
-  //   background: linear-gradient(to bottom, #333 60%, #ffffff);
-  height: 70em;
+  height: 65em;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   div {
     position: relative;
-    bottom: 17em;
+    bottom: 16em;
   }
 
   h1 {
@@ -29,8 +25,9 @@
     text-align: center;
     font-size: 50px;
     display: inline-block;
-    margin-bottom: 30px;
-    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
     border-bottom: 2px solid black;
   }
   p {
@@ -38,9 +35,14 @@
     font-size: 17px;
     color: rgb(175, 201, 5);
     opacity: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     animation: slideIn 1s ease-in-out forwards;
     margin: 0 auto; /* Add this line to center the text horizontally */
     max-width: 700px;
+    padding: 20px; /* Add padding to create space around the text */
+    background-color: #5b98d611; /* Add a semi-transparent background color */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
   }
 }
 
@@ -69,5 +71,10 @@
 @media only screen and (max-width: 945px) {
   .aboutpage h4 {
     font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .aboutpage {
+    height: 70em;
   }
 }

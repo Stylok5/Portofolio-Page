@@ -100,7 +100,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Learn more
+              Project 1
             </button>
             <div className="className collapse" id="collapseExample">
               <div className="card card-body">
@@ -115,13 +115,14 @@ const Projects = () => {
                       >
                         here
                       </a>{" "}
-                      and
+                      and refer to the
                       <a
                         href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
                         target="_blank"
                       >
                         readme
                       </a>{" "}
+                      for more information
                       <p className="technologies">
                         Technologies used: JavaScript | HTML | CSS
                       </p>
@@ -146,7 +147,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Learn more
+              Project 2
             </button>
             <div className="collapse" id="collapseExample">
               <div className="card card-body">
@@ -194,7 +195,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Learn more
+              Project 3
             </button>
             <div className="collapse" id="collapseExample">
               <div className="card card-body">
@@ -243,7 +244,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Learn more
+              Project 4
             </button>
             <div className="collapse" id="collapseExample">
               <div className="card card-body">
