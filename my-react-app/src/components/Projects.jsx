@@ -175,7 +175,7 @@ const Projects = () => {
                       </a>{" "}
                       and refer to the
                       <a
-                        href="https://github.com/Stylok5/Project-2-GameofQuotes#readme"
+                        href="https://github.com/Stylok5/Project-2-GameofQuotes/blob/main/README.md"
                         target="_blank"
                       >
                         ReadMe
@@ -224,7 +224,7 @@ const Projects = () => {
                       </a>{" "}
                       and refer to the
                       <a
-                        href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
+                        href="https://github.com/Stylok5/Project-3-FoodsParadise/blob/main/README.md"
                         target="_blank"
                       >
                         ReadMe
@@ -274,7 +274,7 @@ const Projects = () => {
                       </a>{" "}
                       and refer to the
                       <a
-                        href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
+                        href="https://github.com/Stylok5/Project-4-GamersAssemble_Frontend/blob/main/README.md"
                         target="_blank"
                       >
                         ReadMe
