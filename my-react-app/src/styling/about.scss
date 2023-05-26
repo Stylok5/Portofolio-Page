@@ -10,7 +10,7 @@
   text-align: center;
   padding: 20px;
   animation: fadeIn 1s ease-in-out forwards;
-  height: 65em;
+  height: 67em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,15 +25,15 @@
     text-align: center;
     font-size: 50px;
     display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px 30px;
+    margin-top: 60px;
+    margin-bottom: 17px;
+    padding: 5px 30px;
     border-bottom: 2px solid black;
   }
   p {
     text-align: center;
-    font-size: 17px;
-    color: rgb(175, 201, 5);
+    font-size: 21px;
+    color: rgb(218, 237, 97);
     opacity: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     animation: slideIn 1s ease-in-out forwards;
@@ -69,8 +69,13 @@
 }
 
 @media only screen and (max-width: 945px) {
-  .aboutpage h4 {
-    font-size: 14px;
+  .aboutpage {
+    p {
+      font-size: 16px;
+    }
+    h4 {
+      font-size: 14px;
+    }
   }
 }
 @media only screen and (min-width: 1800px) {

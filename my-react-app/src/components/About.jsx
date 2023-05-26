@@ -4,18 +4,17 @@ const About = () => {
       <div>
         <h1>About me</h1>
         <p>
-          Hey there! I'm Kostas Fergadis, a junior aspiring Software Engineer on
-          the lookout for exciting job opportunities. With a solid foundation in
-          both front-end and back-end technologies, I enjoy crafting efficient
-          and user-friendly full-stack applications. <br /> <br /> With a
-          passion for computers, gaming, and technology since a young age, I
-          naturally gravitated towards the programming world. I soon discovered
-          a profound interest in programming and decided to delve deeper into
-          this fascinating field which led me to a Software Engineering
-          Immersive course at General Assembly.
-          {/* <br /> <br /> Eager to expand my knowledge and skills, I'm driven by a
-          continuous desire to learn, grow, and contribute in the ever-evolving
-          landscape of software development. */}
+          Hey there! I'm Kostas Fergadis, a junior aspiring Software Engineer
+          with a background in 3D art and animation, customer service, and
+          sales. Fluent in Greek and highly proficient in English, I also hold
+          diplomas in French and Japanese.
+          <br /> <br /> With a lifelong passion for computers, gaming, and
+          technology, I naturally gravitated towards the programming world.
+          Through a Software Engineering Immersive course at General Assembly, I
+          developed a solid foundation in both front-end and back-end
+          technologies. I enjoy creating efficient, user-friendly full-stack
+          applications and I'm excited to continue expanding my knowledge and
+          contributing my skills.
         </p>
       </div>
     </div>

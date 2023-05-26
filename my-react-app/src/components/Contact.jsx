@@ -3,6 +3,7 @@ const Contact = () => {
     <div className="contactpage">
       <div className="titlelinks">
         <h1>Contact</h1>
+        <img src="https://ca.slack-edge.com/T0351JZQ0-U045TUX39EX-956b550564cb-512" />
         <div className="contactlinks">
           <a
             className="icon-link"

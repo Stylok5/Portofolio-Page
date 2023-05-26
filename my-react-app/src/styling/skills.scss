@@ -19,7 +19,7 @@
   // background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  height: 70em;
+  height: 50em;
   justify-content: center;
   background-position: 60% center;
   background-repeat: no-repeat;
@@ -88,17 +88,28 @@
 @media only screen and (max-width: 945px) {
   .skillsborder {
     width: 25em;
-    bottom: 4em;
+    bottom: 2.8em;
     padding: 1.4em;
     height: 35em;
   }
   .skill img {
     width: 40px;
   }
+  .skillspage h1 {
+    position: relative;
+    top: 0em !important;
+  }
 }
 @media only screen and (min-width: 1800px) {
   .skillspage {
-    height: 80em;
+    height: 60em;
+    top: 8em !important;
+    position: relative;
     background-position: 500% center;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .skillspage {
+    background-position: 60% center;
   }
 }

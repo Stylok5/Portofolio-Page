@@ -10,7 +10,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" duration={500} offset={100}>
+          <Link to="skills" duration={500} offset={-50}>
             Skills
           </Link>
         </li>
@@ -20,12 +20,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="interests" duration={500} offset={100}>
+          <Link to="interests" duration={500} offset={-70}>
             Interests
           </Link>
         </li>
         <li>
-          <Link to="contact" duration={500} offset={50}>
+          <Link to="contact" duration={500} offset={15}>
             Contact
           </Link>
         </li>

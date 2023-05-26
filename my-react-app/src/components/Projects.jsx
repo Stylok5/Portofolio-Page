@@ -15,12 +15,14 @@ const Projects = () => {
 
   const projectDescriptions = [
     `For my first GA project, I created a Tetris clone using HTML, CSS, and JavaScript. 
-    The game allows players to move and rotate tetrominoes to clear lines and score points.
-     It features a pause function and three different levels that the game progresses through 
-     after completing 5 and 10 lines respectively. 
-    The game ends when the uncleared lines reach the top of the playing field.
+    The game allows players to move and rotate tetrominoes using 
+    the arrow keys, enabling them to clear lines and accumulate points.
+     It features a play/pause and reset button as well as three different difficulty levels that the game progresses through 
+     after the player completes 5 and 10 lines respectively. 
+     The game concludes with a game over message when the stack of uncleared lines reaches the top of the playing field, signifying the end and resetting the game. 
+     Important to note that the current styling lacks responsiveness and has been specifically optimized for 14-inch MacBook and 27-inch screens.
     This was a challenging yet fun experience that aimed to improve my JavaScript skills and problem-solving abilities
-    completed within a 13-day period.
+    completed within a 13-day period. 
       `,
 
     `For project 2, I created a Game Of Thrones website where you can search for a character’s name 
@@ -38,15 +40,22 @@ const Projects = () => {
       developing both the frontend and backend of an application.
      Mongo Atlas and Render were used for backend deployment while Netlify was used for the frontend.
       Users can search for foods by country and add them to their personal list page. Additionally, users 
-      have the ability to leave reviews and create custom food entries.
+      have the ability to leave reviews and create custom food entries. We collaborated closely throughout the project, 
+      utilizing tools like Zoom and Vs Code's live share feature. 
+      As the deadline approached, we divided the workload to ensure timely completion. 
+      My specific contributions included creating the "My List" page and assisting in implementing the review functionality.
       `,
-
-    `This solo project aimed to develop a web application that facilitates communication
-     among gamers and allows them to organize groups for a game of their choice. 
-     The application features two pages displaying popular multiplayer games, and users can join,
-      create, and edit groups, chat, edit their profiles, and visit other user profiles. 
-      The project includes different permissions for owners and users, with group owners 
-      having the ability to delete their group or remove members. It was completed within a 17-day period using Django and React. The backend was deployed on Heroku, and the frontend was deployed on Netlify.
+    `
+    This project aimed to develop a web application for gamers to organize groups and communicate effectively. 
+    Completed in 17 days using Django and React, the app features two pages showcasing popular multiplayer games. 
+    Users can click on a game to access its dedicated page, view details, and see existing groups. The group page 
+    allows users to join or leave groups, chat with members, and provide ratings. Group owners have additional privileges 
+    to edit details and remove members. The user page, accessible by clicking the username in the navigation bar, enables 
+    users to edit their profile,
+     create new groups, and delete existing ones. Predefined login credentials ("user@gmail.com" and "userPassword") facilitate 
+     testing, with additional variations available by adding "user1", "user2", "user3" to the email address. Error handling 
+     includes alerts for 
+     most user actions. The backend is deployed on Heroku, and the frontend on Netlify.
   `,
   ];
 
@@ -88,7 +97,7 @@ const Projects = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://i.imgur.com/kS82FHS.png"
+              src="https://i.imgur.com/VxqXYm5.png"
               className="d-block w-100"
               alt="Project 1"
             />
@@ -120,11 +129,12 @@ const Projects = () => {
                         href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
                         target="_blank"
                       >
-                        readme
+                        ReadMe
                       </a>{" "}
                       for more information
                       <p className="technologies">
-                        Technologies used: JavaScript | HTML | CSS
+                        Technologies used: JavaScript | HTML | CSS | Git |
+                        Github
                       </p>
                     </span>
                   </div>
@@ -163,16 +173,17 @@ const Projects = () => {
                         {" "}
                         here
                       </a>{" "}
-                      and its{" "}
+                      and refer to the
                       <a
                         href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
                         target="_blank"
                       >
-                        readme
-                      </a>
+                        ReadMe
+                      </a>{" "}
+                      for more information
                       <p className="technologies">
                         Technologies used: React | Sass | RESTful API | Vite |
-                        Axios | Excalidraw | Postman
+                        Git | Github | Axios | Excalidraw | Postman
                       </p>
                     </span>
                   </div>
@@ -183,7 +194,7 @@ const Projects = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="https://i.imgur.com/tuUwfxA.png"
+              src="https://i.imgur.com/HF3JoA2.jpg"
               className="d-block w-100"
               alt="Project 3"
             />
@@ -211,17 +222,18 @@ const Projects = () => {
                         {" "}
                         here
                       </a>{" "}
-                      and its{" "}
+                      and refer to the
                       <a
-                        href="https://github.com/Stylok5/Project-3-FoodsParadise/blob/main/README.md"
+                        href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
                         target="_blank"
                       >
-                        readme
-                      </a>
+                        ReadMe
+                      </a>{" "}
+                      for more information
                       <p>
                         Technologies used: MERN stack | Bootstrap | Sass |
-                        Mongoose | Git Github | Render | Netlify | Mongo Atlas |
-                        Excalidraw | Postman | Axios
+                        Mongoose | Git | Github | Render | Netlify | Mongo Atlas
+                        | Excalidraw | Postman | Axios
                       </p>
                     </span>
                   </div>
@@ -260,13 +272,14 @@ const Projects = () => {
                         {" "}
                         here
                       </a>{" "}
-                      and its
+                      and refer to the
                       <a
-                        href="https://github.com/Stylok5/Project-4-GamersAssemble_Frontend#readme"
+                        href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
                         target="_blank"
                       >
-                        readme
-                      </a>
+                        ReadMe
+                      </a>{" "}
+                      for more information
                       <p>
                         Technologies used: Python | Django | React | PostgreSQL
                         | Heroku | Git Github | Postman | Netlify | Vite | Axios

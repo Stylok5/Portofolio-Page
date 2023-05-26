@@ -1,7 +1,7 @@
 .contactpage {
   text-align: center;
   display: flex;
-  height: 60em;
+  height: 70em;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -16,8 +16,8 @@
     margin-bottom: 60px;
     font-size: 50px;
     padding: 10px 50px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(99, 146, 185);
+    border-bottom: 2px solid rgb(99, 146, 185);
   }
 }
 
@@ -41,11 +41,10 @@
 }
 
 .contactlinks a {
-  width: 15em;
+  width: 12em;
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
-  color: #c2d5e8;
   padding: 0.5rem 1rem;
   color: #10579f;
   background-color: #f0f0f0;
@@ -64,11 +63,25 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  img {
+    width: 14em;
+    margin-bottom: 40px !important;
+    border: 1px solid rgba(255, 255, 255, 0); /* Maintains the image's aspect ratio */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.877); /* Adds a subtle box shadow effect */
+    border-radius: 50px; /* Applies a rounded border to the image */
+  }
 }
 
 @media only screen and (max-width: 945px) {
   .contactpage {
     height: 80em;
+  }
+  .titlelinks img {
+    width: 10em;
+  }
+  .contactlinks {
+    margin-bottom: 38em;
   }
 }
 @media only screen and (min-width: 1800px) {
