@@ -145,7 +145,7 @@ const Projects = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="https://i.imgur.com/hkI3JZl.png"
+              src="https://i.imgur.com/hfTa3bf.png"
               className="d-block w-100"
               alt="Project 2"
             />
