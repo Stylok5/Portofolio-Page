@@ -175,7 +175,7 @@ const Projects = () => {
                       </a>{" "}
                       and refer to the
                       <a
-                        href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
+                        href="https://github.com/Stylok5/Project-2-GameofQuotes#readme"
                         target="_blank"
                       >
                         ReadMe
