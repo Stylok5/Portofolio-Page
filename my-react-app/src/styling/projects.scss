@@ -12,8 +12,9 @@
   margin: 50px 0 80px 0 !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   transition: box-shadow 0.3s ease, border-color 0.8s ease;
+
   img {
-    max-height: 61vh;
+    height: 65vh;
   }
 }
 
@@ -61,14 +62,37 @@
 
   h1 {
     border-bottom: 1px solid black;
+    font-size: 37px;
   }
-
+  // span {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
   span a {
     display: inline-block;
     margin-left: 4px;
     text-decoration: none;
   }
+  .heading {
+    display: flex;
+    flex-direction: row;
 
+    a {
+      margin-left: 20px;
+      position: relative;
+      bottom: 4px;
+    }
+  }
+  span a {
+    font-size: 21px;
+    margin-top: 8px;
+
+    svg {
+      bottom: 3px;
+      position: relative;
+      right: 4px;
+    }
+  }
   span a:hover {
     text-decoration: underline;
   }
@@ -76,14 +100,14 @@
     // transform: scale(0.95) !important;
     color: rgb(23, 159, 238);
   }
-  p {
-    color: rgb(14, 81, 168);
-    font-weight: bold;
-    margin-top: 5px;
-    font-size: 20px;
+}
+.technologies {
+  margin-top: 10px;
+  span {
+    margin-left: 6px;
+    color: rgb(8, 98, 209);
   }
 }
-
 .btn {
   position: absolute;
   top: 20.1em;
@@ -109,6 +133,11 @@
 @media only screen and (max-width: 945px) {
   .carousel-inner {
     width: 29em !important;
+  }
+
+  span a {
+    font-size: 18px !important;
+    margin-top: 8px;
   }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
@@ -163,7 +192,7 @@
     }
   }
   .projectspage {
-    margin-top: 18.5em !important;
+    margin-top: 8em !important;
     top: 0em !important;
   }
   .carousel-control-prev-icon,

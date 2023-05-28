@@ -3,7 +3,6 @@
   display: flex;
   margin-top: 15em;
   position: relative;
-
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -20,7 +19,7 @@
 .listinterests {
   display: flex;
   justify-content: center;
-  margin-bottom: 8em;
+  margin-bottom: 6em;
   h2 {
     font-weight: bold;
     color: white;
@@ -52,9 +51,9 @@
     text-align: center;
   }
   .interestspage {
-    margin-top: 15em;
+    margin-top: 10em;
     position: relative;
-    top: 6em;
+    top: 4em;
   }
   h1 {
     position: relative;

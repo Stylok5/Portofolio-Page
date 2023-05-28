@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const Projects = () => {
   const [activeSlide, setActiveSlide] = useState(0);
   const handleSlideChange = (slideIndex) => {
@@ -10,8 +10,6 @@ const Projects = () => {
   const handleToggle = () => {
     setIsExpanded(!isExpanded);
   };
-
-  // Function to handle expanding/collapsing a slide
 
   const projectDescriptions = [
     `For my first GA project, I created a Tetris clone using HTML, CSS, and JavaScript. 
@@ -115,26 +113,29 @@ const Projects = () => {
               <div className="card card-body">
                 <section className="details">
                   <div className="titlelink">
-                    <h1>Project 1 - Tetris</h1>
+                    <div className="heading">
+                      <h1>
+                        Project 1 - Tetris
+                        <a
+                          href="https://game-of-quotes.netlify.app/"
+                          target="_blank"
+                        >
+                          <FaExternalLinkAlt />
+                        </a>{" "}
+                      </h1>
+                    </div>
                     <span>
-                      Check out the deployed project
+                      Refer to the{" "}
                       <a
-                        href="https://stylok5.github.io/Project-1-Tetris/"
+                        href="https://github.com/Stylok5/Project-2-GameofQuotes/blob/main/README.md"
                         target="_blank"
                       >
-                        here
-                      </a>{" "}
-                      and refer to the
-                      <a
-                        href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
-                        target="_blank"
-                      >
-                        ReadMe
+                        ReadMe <FaGithub />
                       </a>{" "}
                       for more information
                       <p className="technologies">
-                        Technologies used: JavaScript | HTML | CSS | Git |
-                        Github
+                        Technologies :
+                        <span> JavaScript | HTML | CSS | Git | GitHub</span>
                       </p>
                     </span>
                   </div>
@@ -145,7 +146,7 @@ const Projects = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="https://i.imgur.com/hfTa3bf.png"
+              src="https://i.imgur.com/eKMSomT.png"
               className="d-block w-100"
               alt="Project 2"
             />
@@ -163,27 +164,33 @@ const Projects = () => {
               <div className="card card-body">
                 <section className="details">
                   <div className="titlelink">
-                    <h1>Project 2 - Game of Quotes</h1>
+                    <div className="heading">
+                      <h1>
+                        Project 2 - Game of Quotes
+                        <a
+                          href="https://game-of-quotes.netlify.app/"
+                          target="_blank"
+                        >
+                          <FaExternalLinkAlt />
+                        </a>{" "}
+                      </h1>
+                    </div>
                     <span>
-                      Check out the deployed project
-                      <a
-                        href="https://game-of-quotes.netlify.app/"
-                        target="_blank"
-                      >
-                        {" "}
-                        here
-                      </a>{" "}
-                      and refer to the
+                      Refer to the{" "}
                       <a
                         href="https://github.com/Stylok5/Project-2-GameofQuotes/blob/main/README.md"
                         target="_blank"
                       >
-                        ReadMe
+                        ReadMe <FaGithub />
                       </a>{" "}
                       for more information
                       <p className="technologies">
-                        Technologies used: React | Sass | RESTful API | Vite |
-                        Git | Github | Axios | Excalidraw | Postman
+                        Technologies :
+                        <span>
+                          {" "}
+                          React | Sass | RESTful API | Vite | Git | GitHub |
+                          Axios | Excalidraw | Postman
+                        </span>
                       </p>
                     </span>
                   </div>
@@ -212,28 +219,33 @@ const Projects = () => {
               <div className="card card-body">
                 <section className="details">
                   <div className="titlelink">
-                    <h1>Project 3 - Foods Paradise</h1>
+                    <div className="heading">
+                      <h1>
+                        Project 3 - Foods Paradise
+                        <a
+                          href="https://foods-paradise.netlify.app/"
+                          target="_blank"
+                        >
+                          <FaExternalLinkAlt />
+                        </a>{" "}
+                      </h1>
+                    </div>
                     <span>
-                      Check out the deployed project
-                      <a
-                        href="https://foods-paradise.netlify.app/"
-                        target="_blank"
-                      >
-                        {" "}
-                        here
-                      </a>{" "}
-                      and refer to the
+                      Refer to the{" "}
                       <a
                         href="https://github.com/Stylok5/Project-3-FoodsParadise/blob/main/README.md"
                         target="_blank"
                       >
-                        ReadMe
+                        ReadMe <FaGithub />
                       </a>{" "}
                       for more information
-                      <p>
-                        Technologies used: MERN stack | Bootstrap | Sass |
-                        Mongoose | Git | Github | Render | Netlify | Mongo Atlas
-                        | Excalidraw | Postman | Axios
+                      <p className="technologies">
+                        Technologies :
+                        <span className="tech-list">
+                          MERN stack | Bootstrap | Sass | Mongoose | Git |
+                          GitHub | Render | Netlify | Mongo Atlas | Excalidraw |
+                          Postman | Axios
+                        </span>
                       </p>
                     </span>
                   </div>
@@ -262,27 +274,32 @@ const Projects = () => {
               <div className="card card-body">
                 <section className="details">
                   <div className="titlelink">
-                    <h1>Project 4 - Gamers Assemble</h1>
+                    <div className="heading">
+                      <h1>
+                        Project 4 - Gamers Assemble
+                        <a
+                          href="https://gamers-assemble.netlify.app/"
+                          target="_blank"
+                        >
+                          <FaExternalLinkAlt />
+                        </a>{" "}
+                      </h1>
+                    </div>
                     <span>
-                      Check out the deployed project
-                      <a
-                        href="https://gamers-assemble.netlify.app/"
-                        target="_blank"
-                      >
-                        {" "}
-                        here
-                      </a>{" "}
-                      and refer to the
+                      Refer to the{" "}
                       <a
                         href="https://github.com/Stylok5/Project-4-GamersAssemble_Frontend/blob/main/README.md"
                         target="_blank"
                       >
-                        ReadMe
+                        ReadMe <FaGithub />
                       </a>{" "}
                       for more information
-                      <p>
-                        Technologies used: Python | Django | React | PostgreSQL
-                        | Heroku | Git Github | Postman | Netlify | Vite | Axios
+                      <p className="technologies">
+                        Technologies :
+                        <span className="tech-list">
+                          Python | Django | React | PostgreSQL | Heroku | Git |
+                          GitHub | Postman | Netlify | Vite | Axios
+                        </span>
                       </p>
                     </span>
                   </div>
