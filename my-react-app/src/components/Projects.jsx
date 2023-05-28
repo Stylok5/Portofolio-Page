@@ -127,7 +127,7 @@ const Projects = () => {
                     <span>
                       Refer to the{" "}
                       <a
-                        href="https://github.com/Stylok5/Project-2-GameofQuotes/blob/main/README.md"
+                        href="https://github.com/Stylok5/Project-1-Tetris/blob/main/README.md"
                         target="_blank"
                       >
                         ReadMe <FaGithub />
