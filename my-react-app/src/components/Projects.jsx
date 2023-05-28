@@ -117,7 +117,7 @@ const Projects = () => {
                       <h1>
                         Project 1 - Tetris
                         <a
-                          href="https://game-of-quotes.netlify.app/"
+                          href="https://stylok5.github.io/Project-1-Tetris/"
                           target="_blank"
                         >
                           <FaExternalLinkAlt />
