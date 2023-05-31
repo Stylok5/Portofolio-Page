@@ -78,11 +78,11 @@
   .contactpage {
     height: 80em;
   }
-  .titlelinks img {
-    width: 10em;
-  }
-  .contactlinks {
-    margin-bottom: 38em;
+  .titlelinks {
+    margin-bottom: 10em;
+    img {
+      width: 15em;
+    }
   }
 }
 @media only screen and (min-width: 1800px) {
