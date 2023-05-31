@@ -39,11 +39,12 @@
   //   margin-bottom: 20em !important;
   position: absolute;
   height: 10px;
-  top: 26.8em !important;
-}
-
-.carousel-indicators button {
-  background-color: #ff4500 !important; /* Set the inactive indicator color */
+  top: 29.2em !important;
+  button {
+    background-color: #ff4500 !important; /* Set the inactive indicator color */
+    border: 1px solid #ff4500 !important;
+    border-radius: 20px;
+  }
 }
 
 .details {
@@ -61,13 +62,10 @@
   flex-direction: column;
 
   h1 {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     font-size: 37px;
   }
-  // span {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
+
   span a {
     display: inline-block;
     margin-left: 4px;
@@ -110,15 +108,16 @@
 }
 .btn {
   position: absolute;
-  top: 20.1em;
+  top: 19.3em;
   left: 50%;
   width: 8em;
+  border: 6px solid #28669d !important;
   border-radius: 20px !important;
   background-color: #642c0b !important;
   /* background-color: #e25e5eb7 !important; */
   transform: translate(-50%, -50%);
   color: rgb(222, 200, 38) !important;
-  font-size: 20px !important;
+  font-size: 22px !important;
   font-weight: bold !important;
 }
 
@@ -130,9 +129,9 @@
   background-color: #163855 !important;
 }
 
-@media only screen and (max-width: 945px) {
+@media only screen and (max-width: 990px) {
   .carousel-inner {
-    width: 29em !important;
+    width: 90vw !important;
   }
 
   span a {
@@ -146,15 +145,16 @@
   .titlelink {
     font-size: 16px;
     h1 {
-      font-size: 28px;
+      font-size: 26px;
       position: relative;
       top: 0px !important;
     }
   }
   .details {
     margin-bottom: 12em;
+    height: 30em;
     p {
-      margin-top: 10px;
+      margin-top: 8px;
       margin-bottom: 2px;
       font-size: 16px;
     }
@@ -175,12 +175,19 @@
     padding: 20px;
   }
   .btn {
-    top: 16.4em;
-    font-size: 14.5px !important;
+    top: 19.7em;
+    font-size: 12px !important;
+    width: 9em;
+    border: 4px solid #28669d !important;
   }
   .carousel-indicators {
-    top: 15.86em !important;
+    top: 16.4em !important;
+    border: 2px !important;
+    button {
+      border: 0px solid #ff4500 !important;
+    }
   }
+
   .carousel.slide img {
     height: 18em;
   }

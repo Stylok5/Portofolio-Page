@@ -28,7 +28,7 @@
 
   h1 {
     display: inline-block;
-    margin-top: 18px;
+    margin-top: 15px;
     font-size: 45px;
     margin-bottom: 40px;
     padding: 10px 20px;
@@ -80,17 +80,16 @@
   position: relative;
   bottom: 2em;
   border-radius: 100px;
-  height: 38.3em;
+  height: 39em;
   background-color: white;
   box-shadow: 0 0 100px rgba(19, 19, 53, 0.968);
 }
 
 @media only screen and (max-width: 945px) {
   .skillsborder {
-    width: 25em;
+    width: 90vw;
     bottom: 2.8em;
     padding: 1.4em;
-    height: 35em;
   }
   .skill img {
     width: 40px;

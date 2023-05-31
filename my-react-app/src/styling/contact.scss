@@ -35,7 +35,7 @@
   flex-direction: column;
   gap: 1em;
   svg {
-    margin-right: 2px;
+    margin-right: 4px;
     margin-bottom: 3px;
   }
 }
@@ -46,8 +46,8 @@
   font-size: 22px;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  color: #10579f;
-  background-color: #f0f0f0;
+  color: #fffefe;
+  background-color: #082f56;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
@@ -55,7 +55,8 @@
   transform: scale(0.97);
 }
 .contactlinks a:hover {
-  background-color: #c1c0c0;
+  background-color: #fffefe;
+  color: #082f56;
 }
 
 .titlelinks {
@@ -81,7 +82,7 @@
     width: 10em;
   }
   .contactlinks {
-    margin-bottom: 29em;
+    margin-bottom: 38em;
   }
 }
 @media only screen and (min-width: 1800px) {

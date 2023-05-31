@@ -107,7 +107,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Project 1
+              View Details
             </button>
             <div className="className collapse" id="collapseExample">
               <div className="card card-body">
@@ -158,7 +158,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Project 2
+              View Details
             </button>
             <div className="collapse" id="collapseExample">
               <div className="card card-body">
@@ -213,7 +213,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Project 3
+              View Details
             </button>
             <div className="collapse" id="collapseExample">
               <div className="card card-body">
@@ -268,7 +268,7 @@ const Projects = () => {
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              Project 4
+              View Details
             </button>
             <div className="collapse" id="collapseExample">
               <div className="card card-body">
