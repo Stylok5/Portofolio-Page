@@ -27,7 +27,7 @@
     display: inline-block;
     margin-top: 60px;
     margin-bottom: 17px;
-    padding: 5px 30px;
+    padding: 3px 30px;
     border-bottom: 2px solid black;
   }
   p {
@@ -70,6 +70,7 @@
 
 @media only screen and (max-width: 945px) {
   .aboutpage {
+    margin-top: 20px;
     p {
       font-size: 16px;
       margin-top: 20px;

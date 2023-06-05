@@ -88,7 +88,7 @@
     svg {
       bottom: 3px;
       position: relative;
-      right: 4px;
+      right: 5px;
     }
   }
   span a:hover {
@@ -96,7 +96,7 @@
   }
   span a:active {
     // transform: scale(0.95) !important;
-    color: rgb(23, 159, 238);
+    color: rgb(240, 78, 14);
   }
 }
 .technologies {
@@ -119,21 +119,34 @@
   color: rgb(222, 200, 38) !important;
   font-size: 22px !important;
   font-weight: bold !important;
+  &:hover {
+    background-color: #28669d !important;
+  }
+  &:active {
+    background-color: #163855 !important;
+  }
 }
-
-.btn:hover {
-  background-color: #28669d !important;
-}
-
-.btn:active {
-  background-color: #163855 !important;
+.external-link-icon {
+  font-size: 31px;
+  position: relative;
+  transition: top 0.2s ease-in-out;
+  &:hover {
+    top: -5px;
+  }
+  &:active {
+    color: rgb(240, 78, 14);
+  }
 }
 
 @media only screen and (max-width: 990px) {
   .carousel-inner {
     width: 90vw !important;
   }
-
+  .external-link-icon {
+    font-size: 19px;
+    position: relative;
+    right: 10px;
+  }
   span a {
     font-size: 18px !important;
     margin-top: 8px;
@@ -145,20 +158,20 @@
   .titlelink {
     font-size: 16px;
     h1 {
-      font-size: 26px;
+      font-size: 19px;
       position: relative;
       top: 0px !important;
     }
   }
   .details {
-    margin-bottom: 12em;
-    height: 30em;
+    height: 93vh;
     p {
       margin-top: 8px;
       margin-bottom: 2px;
-      font-size: 16px;
+      font-size: 15px;
     }
   }
+
   .projectspage {
     top: 2em;
   }
@@ -168,7 +181,6 @@
   .carousel.slide {
     top: 3.6em;
   }
-
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     top: 8em !important;
@@ -187,17 +199,18 @@
       border: 0px solid #ff4500 !important;
     }
   }
-
   .carousel.slide img {
     height: 18em;
   }
 }
+
 @media only screen and (min-width: 1800px) {
   .carousel.slide {
     img {
       height: 37em;
     }
   }
+
   .projectspage {
     margin-top: 8em !important;
     top: 0em !important;

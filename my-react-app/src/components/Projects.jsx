@@ -120,7 +120,9 @@ const Projects = () => {
                           href="https://stylok5.github.io/Project-1-Tetris/"
                           target="_blank"
                         >
-                          <FaExternalLinkAlt />
+                          <span class="external-link-icon">
+                            <FaExternalLinkAlt />
+                          </span>
                         </a>{" "}
                       </h1>
                     </div>
@@ -134,8 +136,8 @@ const Projects = () => {
                       </a>{" "}
                       for more information
                       <p className="technologies">
-                        Technologies :
-                        <span> JavaScript | HTML | CSS | Git | GitHub</span>
+                        Technologies:
+                        <span>JavaScript | HTML | CSS | Git | GitHub</span>
                       </p>
                     </span>
                   </div>
@@ -171,7 +173,9 @@ const Projects = () => {
                           href="https://game-of-quotes.netlify.app/"
                           target="_blank"
                         >
-                          <FaExternalLinkAlt />
+                          <span class="external-link-icon">
+                            <FaExternalLinkAlt />
+                          </span>
                         </a>{" "}
                       </h1>
                     </div>
@@ -185,9 +189,8 @@ const Projects = () => {
                       </a>{" "}
                       for more information
                       <p className="technologies">
-                        Technologies :
+                        Technologies:
                         <span>
-                          {" "}
                           React | Sass | RESTful API | Vite | Git | GitHub |
                           Axios | Excalidraw | Postman
                         </span>
@@ -226,7 +229,9 @@ const Projects = () => {
                           href="https://foods-paradise.netlify.app/"
                           target="_blank"
                         >
-                          <FaExternalLinkAlt />
+                          <span class="external-link-icon">
+                            <FaExternalLinkAlt />
+                          </span>
                         </a>{" "}
                       </h1>
                     </div>
@@ -240,7 +245,7 @@ const Projects = () => {
                       </a>{" "}
                       for more information
                       <p className="technologies">
-                        Technologies :
+                        Technologies:
                         <span className="tech-list">
                           MERN stack | Bootstrap | Sass | Mongoose | Git |
                           GitHub | Render | Netlify | Mongo Atlas | Excalidraw |
@@ -281,7 +286,9 @@ const Projects = () => {
                           href="https://gamers-assemble.netlify.app/"
                           target="_blank"
                         >
-                          <FaExternalLinkAlt />
+                          <span class="external-link-icon">
+                            <FaExternalLinkAlt />
+                          </span>
                         </a>{" "}
                       </h1>
                     </div>
@@ -295,7 +302,7 @@ const Projects = () => {
                       </a>{" "}
                       for more information
                       <p className="technologies">
-                        Technologies :
+                        Technologies:
                         <span className="tech-list">
                           Python | Django | React | PostgreSQL | Heroku | Git |
                           GitHub | Postman | Netlify | Vite | Axios
