@@ -286,7 +286,7 @@ const Projects = () => {
                           href="https://gamers-assemble.netlify.app/"
                           target="_blank"
                         >
-                          <span class="external-link-icon">
+                          <span className="external-link-icon">
                             <FaExternalLinkAlt />
                           </span>
                         </a>{" "}

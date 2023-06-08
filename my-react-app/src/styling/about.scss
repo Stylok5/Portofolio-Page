@@ -1,8 +1,6 @@
 .aboutpage {
-  background-image: linear-gradient(rgba(166, 189, 202, 0), #1d142728, #0e0b13),
+  background-image: linear-gradient(rgba(166, 189, 202, 0), #1d14274f, #0e0b13),
     url("https://images.pling.com/img/00/00/58/85/50/1708012/nature-minimalist-style-171.jpg");
-  // https://rare-gallery.com/mocahbig/391762-morning-scenery-minimalist-digital-art-4k-pc-wallpaper.jpg
-  // https://wallpaperaccess.com/full/1216331.jpg
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +43,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
   }
 }
-
+.insideabout {
+  margin-top: 03em;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -82,6 +82,5 @@
 }
 @media only screen and (min-width: 1800px) {
   .aboutpage {
-    height: 88vh;
   }
 }
