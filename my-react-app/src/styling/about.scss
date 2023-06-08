@@ -8,7 +8,7 @@
   text-align: center;
   padding: 20px;
   animation: fadeIn 1s ease-in-out forwards;
-  height: 67em;
+  height: 65em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +73,7 @@
     margin-top: 20px;
     p {
       font-size: 16px;
-      margin-top: 20px;
+      margin-top: 45px;
     }
     h1 {
       font-size: 40px;
@@ -81,6 +81,4 @@
   }
 }
 @media only screen and (min-width: 1800px) {
-  .aboutpage {
-  }
 }

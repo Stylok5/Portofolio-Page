@@ -10,7 +10,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" duration={500} offset={-50}>
+          <Link to="skills" duration={500} offset={80}>
             Skills
           </Link>
         </li>

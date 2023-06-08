@@ -10,10 +10,11 @@
   text-align: center;
   display: flex;
   align-items: center;
-  height: 50em;
+  height: 70em;
   justify-content: center;
-  background-position: 60% center;
   background-repeat: no-repeat;
+  background-position: center 60%;
+  background-size: 175em;
   background-image: linear-gradient(#0e0a11, rgba(6, 6, 6, 0)),
     url("https://trumpwallpapers.com/wp-content/uploads/Minimalist-Wallpaper-08-3840x2160-1-scaled.jpg");
 
@@ -69,8 +70,8 @@
   border: 5px solid rgb(31, 105, 139);
   width: 39em;
   position: relative;
-  bottom: 2em;
   border-radius: 100px;
+  bottom: 4em;
   height: 39em;
   background-color: white;
   box-shadow: 0 0 100px rgba(19, 19, 53, 0.968);
@@ -78,10 +79,10 @@
 
 @media only screen and (max-width: 945px) {
   .skillsborder {
-    width: 23em;
+    width: 22em;
     bottom: 2.8em;
     padding: 1.4em;
-    height: 35em;
+    height: 34em;
   }
   .skill img {
     width: 39px;
@@ -92,16 +93,12 @@
   }
 }
 @media only screen and (min-width: 1800px) {
-  .skillspage {
-    height: 78vh;
-  }
-
   .skillsborder {
-    top: 6em;
+    top: 8em;
   }
-}
-@media only screen and (min-width: 1000px) {
   .skillspage {
-    background-position: center top 20%;
+    background-size: 200em;
+    height: 90em;
+    background-position: center bottom 80%;
   }
 }
