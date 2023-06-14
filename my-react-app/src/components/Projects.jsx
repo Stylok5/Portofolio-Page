@@ -12,13 +12,13 @@ const Projects = () => {
   };
 
   const projectDescriptions = [
-    `For my first GA project, I created a Tetris clone using HTML, CSS, and JavaScript. 
+    `For my first GA project, I created a mobile responsive Tetris clone using HTML, CSS, and JavaScript. 
     The game allows players to move and rotate tetrominoes using 
     the arrow keys, enabling them to clear lines and accumulate points.
      It features a play/pause and reset button as well as three different difficulty levels that the game progresses through 
-     after the player completes 5 and 10 lines respectively. 
-     The game concludes with a game over message when the stack of uncleared lines reaches the top of the playing field, signifying the end and resetting the game. 
-     Important to note that the current styling lacks responsiveness and has been specifically optimized for 14-inch MacBook and 27-inch screens.
+     after the player completes 5 and 10 lines respectively.
+     The game concludes with a game over message when the stack of uncleared lines reaches the top of the playing field, 
+     signifying the end and resetting the game. 
     This was a challenging yet fun experience that aimed to improve my JavaScript skills and problem-solving abilities
     completed within a 13-day period. 
       `,
@@ -26,7 +26,7 @@ const Projects = () => {
     `For project 2, I created a Game Of Thrones website where you can search for a character’s name 
       and then go to the character’s individual page using the popular JavaScript library React. On each character's page,
       you can explore their notable quotes from the TV series and discover additional information. 
-      The website leverages a public API to fetch character quotes and names. 
+      The website leverages a public API to fetch character quotes and names and is mobile responsive.
       With this project, I gained valuable experience in various aspects of React.js development,
       including React.js routing, utilizing the useState and useEffect hooks effectively, and making 
       HTTP requests with Axios to fetch data from external APIs.
@@ -45,7 +45,7 @@ const Projects = () => {
       `,
     `
     This project aimed to develop a web application for gamers to organize groups and communicate effectively. 
-    Completed in 17 days using Django and React, the app features two pages showcasing popular multiplayer games. 
+    Completed in 17 days using Django and React, this mobile responsive app features two pages showcasing popular multiplayer games. 
     Users can click on a game to access its dedicated page, view details, and see existing groups. The group page 
     allows users to join or leave groups, chat with members, and provide ratings. Group owners have additional privileges 
     to edit details and remove members. The user page, accessible by clicking the username in the navigation bar, enables 

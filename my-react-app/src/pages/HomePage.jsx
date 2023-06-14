@@ -5,6 +5,9 @@ import About from "../components/About";
 import Interests from "../components/Interests";
 
 const HomePage = () => {
+  const foo = [1, 2];
+  let bar = foo;
+  console.log(bar);
   return (
     <div className="homepage">
       <div className="sections">
